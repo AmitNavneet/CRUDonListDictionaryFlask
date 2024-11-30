@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link></link>
+        <title></title>
+    </head>
+    <body>
+
+        <form method="POST">
+            <table>
+                <tr>
+                    <td>Roll No.</td>
+                    <td>
+                        <input type="number" name="studRoll">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Student Name:</td>
+                    <td>
+                        <input type="text" name="studName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Marks:
+                    </td>
+                    <td>
+                        <input type="number" name="studMarks">
+                   
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset">
+                    </td>
+                    <td>
+                        <input type="submit" value="Update Marks" formaction="updateMarks">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="printStudent">
+                        <button type="button">Print Data</button>
+                        </a>
+                    </td>
+                    <td>
+                        <input type="submit" value="Delete Student" formaction="deleteStudent" formmethod="POST">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" formaction="searchStudent" value="Search Student">
+                    </td>
+                    <td>
+                        <input type="submit" formaction="insertStudent" value="Insert Student">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <input type="submit" formaction="updateStudent" value="Update Student">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
